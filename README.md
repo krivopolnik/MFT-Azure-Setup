@@ -179,15 +179,15 @@ public static class CDCFunction
     [FunctionName("CDCFunction")]
     public static async Task Run([EventGridTrigger] EventGridEvent eventGridEvent, ILogger log)
     {
-        // Logika zpracování události
+        // Event processing logic
         log.LogInformation($"Received CDC event: {eventGridEvent.Data}");
-        // Odeslání oznámení
+        // Sending notification
         await SendNotification(eventGridEvent.Data);
     }
 
     private static Task SendNotification(object data)
     {
-        // Logika odesílání oznámení
+        // Notification sending logic
         return Task.CompletedTask;
     }
 }
