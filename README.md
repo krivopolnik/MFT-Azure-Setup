@@ -125,9 +125,7 @@ steps:
    - Nastavte pipeline pro automatické nasazení mikroslužby do vybraného prostředí (například Azure Kubernetes Service nebo Azure App Service).
    - Přidejte kroky pro nasazení do souboru YAML.
 
-Pří
-
-klad přidání kroků pro nasazení:
+Příklad přidání kroků pro nasazení:
 
 ```yaml
 - task: AzureWebApp@1
