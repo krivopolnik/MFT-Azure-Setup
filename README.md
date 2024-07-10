@@ -1,5 +1,3 @@
----
-
 # Nastavení MFT s využitím Azure Storage Account, provádění zátěžového testování, nastavení CI/CD pro mikroslužby a implementace notifikační služby
 
 Pro nastavení systému řízeného přenosu souborů (MFT) s využitím Azure Storage Account, provádění zátěžového testování, nastavení CI/CD pro mikroslužby a implementaci notifikační služby postupujte podle následujících kroků:
@@ -215,5 +213,3 @@ public static class CDCFunction
 ## Závěr
 
 Tyto kroky představují komplexní přístup k nastavení systému řízeného přenosu souborů s využitím Azure Storage Account, provádění zátěžového testování, nastavení CI/CD pro mikroslužby, implementaci notifikační služby s CDC a zajištění bezpečnosti a monitorování. Realizace tohoto přístupu umožní vaší organizaci dosáhnout vysoké úrovně automatizace, bezpečnosti a efektivity v řízení dat a vývojových procesů.
-
---- 
